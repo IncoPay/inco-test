@@ -1,8 +1,8 @@
 {
-  "name": "inco-x402-sessions-test",
+  "name": "solana-x402-sessions-test",
   "version": "0.0.0",
   "private": true,
-  "description": "End-to-end test harness for the inco x402-sessions stack.",
+  "description": "End-to-end test harness for the solana-x402-sessions stack.",
   "scripts": {
     "dry-run": "tsx scripts/dry-run.ts",
     "status": "tsx scripts/status.ts",
@@ -13,8 +13,8 @@
     "@inco/solana-sdk": "^0.0.2",
     "@solana/web3.js": "^1.98.4",
     "dotenv": "^16.4.5",
-    "inco-x402-sessions": "file:../inco-x402-sessions",
-    "tweetnacl": "^1.0.3"
+    "tweetnacl": "^1.0.3",
+    "solana-x402-sessions": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

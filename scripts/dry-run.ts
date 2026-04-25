@@ -12,7 +12,7 @@ import {
   createSession,
   ClientSvmSigner,
   type Network,
-} from "inco-x402-sessions";
+} from "solana-x402-sessions";
 
 loadDotenv({ path: path.resolve(process.cwd(), "../.env") });
 
